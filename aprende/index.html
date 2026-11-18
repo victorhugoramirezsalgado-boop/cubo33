@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>CUBO33 · Aprende: traductor de 22 idiomas, pronunciación y Juego del Cubo</title>
+<meta name="description" content="Aprendizaje de CUBO33: traductor entre 22 idiomas en cualquier sentido, práctica de pronunciación con calificación por palabra, 159 palabras y frases, abecedario en Morse, braille, banderas y señas, y el Juego del Cubo. Obra de Víctor Hugo Ramírez Salgado.">
+<meta name="author" content="Víctor Hugo Ramírez Salgado">
+<meta name="theme-color" content="#2C3A32">
+<link rel="canonical" href="https://cubo33.com/aprende/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/estilo.css?v=8.3.19">
+<link rel="stylesheet" href="../estilo.css?v=F3">
+<link rel="stylesheet" href="tema-c33.css?v=1">
+</head>
+<body>
+<div class="regreso" id="regreso" data-sin-origen>
+<div class="cont">
+<a class="btn-regresar" id="btn-regresar" href="https://victorhugoramirezsalgado.com"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg><span>Regresar a <span class="origen-nombre">VHRS</span></span></a>
+<small class="con-origen">Abriste CUBO33 desde <span class="origen-nombre">VHRS</span>; esa página sigue abierta.</small>
+<small class="sin-origen">CUBO33 · plataforma de aprendizaje de la familia Gran Intertopía.</small>
+</div></div>
+<header class="cab"><div class="cont">
+<a class="logo" href="../" aria-label="Inicio de CUBO33">
+<svg width="44" height="44" viewBox="0 0 44 44" aria-hidden="true"><path d="M22 3L39 12.5V31.5L22 41L5 31.5V12.5Z" fill="#2C3A32"/><path d="M22 3L39 12.5L22 22L5 12.5Z" fill="#F2C96B"/><path d="M22 22V41L39 31.5V12.5Z" fill="#4A5E52"/><path d="M22 3L39 12.5V31.5L22 41L5 31.5V12.5Z M22 22L39 12.5 M22 22L5 12.5 M22 22V41" fill="none" stroke="#C9A55A" stroke-width="1"/></svg>
+<span><b>CUBO<span>33</span></b><small>APRENDE · JUEGA · COMPRENDE</small></span></a>
+<nav class="menu" aria-label="Principal"><a href="../">Inicio</a><a href="#tr">Traductor</a><a href="#pv">Pronunciación</a><a href="#pa">159 palabras</a><a href="#cj">Juego</a><a href="../#registros">Registros</a></nav>
+<label class="idioma"><span class="oculto">Idioma del sitio</span><select id="idioma" aria-label="Idioma"><option value="">Español</option>
+<optgroup label="ONU"><option value="en">English</option><option value="fr">Français</option><option value="ar">العربية</option><option value="zh-CN">中文</option><option value="ru">Русский</option></optgroup>
+<optgroup label="Europa"><option value="pt">Português</option><option value="de">Deutsch</option><option value="it">Italiano</option><option value="nl">Nederlands</option><option value="pl">Polski</option><option value="uk">Українська</option><option value="el">Ελληνικά</option><option value="sv">Svenska</option><option value="ro">Română</option><option value="ca">Català</option><option value="eu">Euskara</option><option value="gl">Galego</option></optgroup>
+<optgroup label="Asia"><option value="ja">日本語</option><option value="ko">한국어</option><option value="hi">हिन्दी</option><option value="vi">Tiếng Việt</option><option value="th">ไทย</option><option value="id">Bahasa Indonesia</option><option value="tr">Türkçe</option><option value="he">עברית</option><option value="fa">فارسی</option></optgroup>
+<optgroup label="Regionales"><option value="yua">Maya yucateco</option><option value="nhe">Náhuatl</option></optgroup></select></label>
+</div></header>
+<main>
+<section class="slide blk c33-ap" id="aprende">
+  <div class="wrap">
+    <nav class="c33-ir" aria-label="Ir a">
+      <a href="#tr">Traductor · 22 idiomas</a><a href="#pv">Practica tu pronunciación</a><a href="#pa">159 palabras</a><a href="#ab">Abecedario</a><a href="#cj">Juego del Cubo</a>
+    </nav>
+    <span class="eyebrow">Aprendizaje · Comunicación para todos</span>
+    <h2>Aprenda a pedir ayuda de cinco maneras, y en 22 idiomas.</h2>
+    <p class="lead fo-lead">En una emergencia, no todas las personas pueden oír, ver o hablar. Aquí puede aprender y practicar el código Morse, el braille, las banderas del Código Internacional de Señales y la lengua de señas.</p>
+    <div class="card ap-conv">
+      <label class="sn-campo"><b>Escriba un mensaje</b><input id="ap-txt" value="SOS" maxlength="30" autocomplete="off" placeholder="SOS"></label>
+      <div class="ap-prac"><button class="btn" type="button" data-practica="SOS">SOS · Auxilio</button><button class="btn" type="button" data-practica="AYUDA">AYUDA · Ayuda</button><button class="btn" type="button" data-practica="SISMO">SISMO · Sismo</button><button class="btn" type="button" data-practica="911">911 · Llamar al 911</button></div>
+      <div class="ap-sal">
+        <div><small>Morse</small><p class="mono ap-morse" id="ap-morse"></p></div>
+        <div><small>Braille</small><p class="ap-braille no-traducir" id="ap-braille"></p></div>
+        <div><small>Banderas</small><div class="ap-band no-traducir" id="ap-band"></div></div>
+        <div><small>Alfabeto fonético</small><p class="ap-fon no-traducir" id="ap-fon"></p></div>
+        <div class="ap-sal-lsm"><small>Lengua de Señas Mexicana (LSM)</small><div class="ap-lsm no-traducir" id="ap-lsm"></div></div>
+      </div>
+      <p><button class="btn" type="button" id="ap-oir">Escuchar en Morse</button></p>
+    </div>
+    <div class="grid g2" style="margin-top:14px">
+      <div class="card ap-lsm"><h3>Lengua de Señas Mexicana (LSM)</h3><p>La LSM es la lengua de la comunidad sorda en México (código ISO 639-3: mfs). Aquí se muestra su abecedario manual, con el que se deletrean nombres y palabras; las letras J, K, Ñ, Q, X y Z llevan movimiento. La lengua completa se aprende con videos y con personas sordas: le recomendamos los diccionarios oficiales.</p>
+        <ul><li><a href="https://educacionespecial.sep.gob.mx/storage/recursos/2023/05/xzrfl019nV-4Diccionario_lengua_%20Senas.pdf" target="_blank" rel="noopener">Diccionario de Lengua de Señas Mexicana (SEP, Educación Especial)</a></li>
+        <li><a href="https://pdh.cdmx.gob.mx/storage/app/media/banner/Dic_LSM%202.pdf" target="_blank" rel="noopener">Diccionario de LSM de la Ciudad de México (CDHCM)</a></li></ul>
+        <p class="note">Abecedario: Secretaría de Educación Pública y Aprende.mx. Módulo de lengua de señas en las pantallas: en desarrollo (LSM y ASL).</p></div>
+      <div class="card"><h3>Braille</h3><p class="note">Braille en español (Comisión Braille Española): seis puntos por celda; los números llevan antes el signo de número ⠼.</p><p class="note">Morse internacional (UIT-R M.1677-1): el punto es corto y la raya dura tres puntos.</p><p class="note">Alfabeto fonético internacional (OACI/OTAN), el que usan radio marítima y aeronáutica para deletrear sin errores.</p></div>
+    </div>
+    <div class="card ab" id="ab">
+      <h3>Abecedario · un solo alfabeto, el sistema que elija</h3>
+      <p class="note">Elija cómo quiere ver el abecedario: todo junto en la Cara del Cubo, en Morse, braille, banderas con su nombre (Alfa, Bravo, Charlie…), alfabeto fonético, Lengua de Señas Mexicana o el alfabeto de cualquiera de los 22 idiomas.</p>
+      <div class="ab-ctl">
+        <label class="sn-campo"><b>Sistema</b><select id="ab-sis" aria-label="Sistema de escritura"></select></label>
+        <label class="sn-campo" id="ab-idi-w" hidden><b>Idioma</b><select id="ab-idi" aria-label="Idioma"></select></label>
+      </div>
+      <div class="ab-ctl">
+        <div class="ap-cara-mod" role="group" id="ab-nums" aria-label="Letras o números"><button class="btn" type="button" data-n="0" aria-pressed="true">Letras A–Z</button><button class="btn" type="button" data-n="1" aria-pressed="false">Números 0–9</button></div>
+        <div class="ap-cara-mod" role="group" id="ab-vista" aria-label="Vista"><button class="btn" type="button" data-v="rejilla" aria-pressed="true">Cuadrícula</button><button class="btn" type="button" data-v="tabla" aria-pressed="false">Tabla detallada (con alfabeto fonético)</button></div>
+      </div>
+      <p class="note" id="ab-nota" role="status"></p>
+      <div class="ab-rej no-traducir" id="ab-rej"></div>
+      <div class="ab-tab no-traducir" id="ab-tab" hidden></div>
+    </div>
+    <div class="card ap-imp"><h3>Cubo de Aprendizaje para imprimir y armar</h3><p>Seis caras: banderas (A–Z con su nombre fonético y gallardetes del 0 al 9), Morse y alfabeto fonético, braille, Lengua de Señas Mexicana, 22 idiomas (alfabetos) y SOSistem™ con sus códigos QR. Cada cara indica en su cabecera el nombre del sistema, su año de origen y su creador, con cita APA. Incluye portada con vista 3D, la descripción de cada lenguaje e instrucciones.</p>
+      <p class="ap-imp-b"><a class="btn primary" href="https://sosistem.com/assets/cubo-aprendizaje-carta.pdf" download>Descargar · carta</a> <a class="btn" href="https://sosistem.com/assets/cubo-aprendizaje-oficio.pdf" download>Descargar · oficio (legal)</a> <a class="btn" href="https://sosistem.com/assets/cubo-aprendizaje-doble-carta.pdf" download>Descargar · doble carta (cubo grande)</a> <a class="btn" href="https://sosistem.com/assets/cubo-aprendizaje-a4.pdf" download>Descargar · A4</a> <a class="btn" href="https://sosistem.com/assets/cubo-aprendizaje-gigante-carta.pdf" download>Descargar · cubo gigante (6 hojas carta, 19 cm por cara)</a></p>
+      <p class="note">Todo es vectorial: con otra hoja elija «Ajustar a la página» en su impresora y el cubo conserva su forma.</p></div>
+    <div class="card pa" id="pa">
+      <h3>Idiomas · 159 palabras y frases para aprender</h3>
+      <p class="note">Elija el idioma que quiere aprender y el idioma desde el que lo lee. Toque una frase: suena con la voz de ese idioma y abajo aparece, el tiempo necesario para leerlo, cómo se escribe, cómo se lee y cómo se pronuncia.</p>
+      <p class="note">La frase «¡Llame al 911!» se deja con el 911 en todos los idiomas; en Europa y gran parte del mundo el número único de emergencias es el 112.</p>
+      <div class="ab-ctl">
+        <label class="sn-campo"><b>Aprender</b><select id="pa-dest" aria-label="Idioma que quiere aprender"></select></label>
+        <label class="sn-campo"><b>Desde</b><select id="pa-base" aria-label="Idioma desde el que lee"></select></label>
+        <label class="sn-campo"><b>Buscar</b><input id="pa-q" type="search" placeholder="agua, hola, 911…" autocomplete="off"></label>
+      </div>
+      <div class="pa-cats" id="pa-cats" role="group" aria-label="Categorías"></div>
+      <p class="note" id="pa-cuenta" role="status"></p>
+      <div class="pa-lista no-traducir" id="pa-lista"></div>
+      <p><a class="btn primary" id="pa-pdf" href="assets/idiomas/idioma-en-carta.pdf" download>Imprimir bases y 159 palabras (PDF carta)</a> <a class="btn" href="assets/idiomas/idiomas-22-bases-carta.pdf" download>Imprimir los 22 idiomas (PDF carta)</a></p>
+      <details class="ap-det" open><summary>Bases del idioma: sonidos, verbos y ruta de básico a intermedio</summary><div class="ba no-traducir" id="ba"></div></details>
+    </div>
+
+    <div class="card tr" id="tr">
+      <h3>Traductor de referencia · sin oficialización</h3>
+      <p class="note">Traduce el texto completo (hasta 5,000 caracteres) entre los 22 idiomas, en cualquier sentido; sin conexión usa el diccionario de las 159 entradas. Es de referencia: no sustituye a un traductor certificado. Con el micrófono, lo que diga aparece escrito, con su lectura y su pronunciación.</p>
+      <div class="ab-ctl"><label class="sn-campo"><b>De</b><select id="tr-de" aria-label="Traducir de"></select></label><button class="btn" type="button" id="tr-swap" aria-label="Intercambiar idiomas">⇄</button><label class="sn-campo"><b>A</b><select id="tr-a" aria-label="Traducir a"></select></label></div>
+      <textarea id="tr-in" rows="6" maxlength="5000" placeholder="Escriba o pegue hasta 5,000 caracteres. Ejemplo: hola, necesito ayuda por favor" class="tr-in"></textarea>
+      <p class="tr-bot"><button class="btn primary" type="button" id="tr-btn">Traducir</button> <button class="btn" type="button" id="tr-oir">🔊 Escuchar</button> <button class="btn" type="button" id="tr-mic" aria-pressed="false">🎤 Dictar</button> <button class="btn" type="button" id="tr-imp">Imprimir</button></p>
+      <div class="tr-out no-traducir" id="tr-out" aria-live="polite"></div>
+      <details class="ap-det"><summary>Idiomas incluidos (código y nombre completo)</summary>
+        <div class="tbl-wrap"><table class="ap-tabla"><thead><tr><th>Código</th><th>Idioma</th><th>Nombre propio</th><th>Variante</th><th>Escritura</th><th>Norma de referencia</th><th>Voz en este equipo</th></tr></thead><tbody id="id-cat"></tbody></table></div>
+        <p class="note">Las voces son las del propio equipo (iPhone, Mac, Android o Windows): no se descarga ni se envía audio. Si un idioma dice «Descargar», en iPhone vaya a Ajustes › Accesibilidad › Contenido leído › Voces y elija una voz «mejorada».</p></details>
+    </div>
+    <div class="card pv" id="pv">
+      <h3>Practica tu pronunciación · calificación por palabra</h3>
+      <p class="note">Elija el idioma y el texto: una frase de las 159 palabras, el texto del traductor o el suyo (hasta 5,000 caracteres). Elija el ritmo de lectura: palabra por palabra, lento, mediano, rápido, frase por frase o el párrafo completo de corrido. Elija también el nivel de escucha: básico (más tolerante), mediano o normal (exigente). Toque «Leer y calificar» y lea en voz alta en el idioma elegido; arriba del texto verá lo que el sistema va escuchando. Puede subir y bajar libremente. La palabra que toca leer se marca en azul y cada palabra leída queda en color según su calificación. Debajo de cada palabra aparece cómo se pronuncia (aproximada para hispanohablantes). No se graba ni se guarda audio.</p>
+      <div class="ab-ctl"><label class="sn-campo"><b>Idioma</b><select id="pv-idi" aria-label="Idioma de la práctica"></select></label><label class="sn-campo"><b>Texto</b><select id="pv-fuente" aria-label="Origen del texto"><option value="frase">Frase de las 159 palabras</option><option value="traductor">Texto del traductor</option><option value="propio">Escribir el mío</option></select></label><label class="sn-campo"><b>Ritmo de lectura</b><select id="pv-ritmo" aria-label="Ritmo de lectura"><option value="palabra">Palabra por palabra</option><option value="lento">Lento</option><option value="mediano" selected>Mediano</option><option value="rapido">Rápido</option><option value="frase">Frase por frase</option><option value="parrafo">Párrafo completo, de corrido</option></select></label><label class="sn-campo"><b>Nivel de escucha</b><select id="pv-niv" aria-label="Nivel de escucha"><option value="basico">Básico (principiante, más tolerante)</option><option value="mediano" selected>Mediano</option><option value="normal">Normal (exigente)</option></select></label></div>
+      <textarea id="pv-in" rows="4" maxlength="5000" class="tr-in" placeholder="Escriba o pegue el texto que va a leer en voz alta"></textarea>
+      <p class="tr-bot"><button class="btn primary" type="button" id="pv-go">🎤 Leer y calificar</button> <button class="btn" type="button" id="pv-fin">⏹ Terminar</button> <button class="btn" type="button" id="pv-mod">🔊 Escuchar modelo</button> <button class="btn" type="button" id="pv-otra" onclick="document.getElementById('pv-fuente').value='frase';document.getElementById('pv-fuente').onchange()">↻ Otra frase</button></p>
+      <p class="pv-opc"><label><input type="checkbox" id="pv-seg" checked> Seguir la lectura (si usted mueve la pantalla, se detiene 5 s)</label> <button class="btn" type="button" id="pv-amp">⤢ Pantalla completa</button></p>
+      <div id="pv-zona">
+      <p class="pv-barra"><button class="btn" type="button" id="pv-fin2">⏹ Terminar</button> <button class="btn" type="button" onclick="document.getElementById('pv-amp').click()">✕ Cerrar</button></p>
+      <p class="pv-ley"><span class="pv-act">Azul: la que toca leer</span> <span class="pv-v">Verde 9–10</span> <span class="pv-m">Morado 7–8.9</span> <span class="pv-a">Amarillo 4–6.9</span> <span class="pv-r">Rojo 0–3.9</span></p>
+      <p class="pv-oye note" id="pv-oye" aria-live="polite"></p>
+      <div class="pv-txt no-traducir" id="pv-txt" aria-live="polite"></div>
+      <div id="pv-res" aria-live="polite"></div>
+      </div>
+    </div>
+    <div class="card cj" id="cj">
+      <h3>Juego del Cubo · de 2 a 4 personas</h3>
+      <p class="note">Juego 360: se tira el cubo al centro y cada jugador se queda con la cara que le cae enfrente; ese es su alfabeto (Morse, braille, señas, banderas o fonético). Inicia quien recibió Morse: pregunta la letra en turno, de la A a la Z, en su alfabeto a quien elija (izquierda, enfrente o derecha). Quien sabe gana 1 punto y toma el turno. Si nadie supo, quien preguntó se lleva 3 puntos (uno por rival) y el turno pasa al de al lado. Al llegar a la Z se vuelve a tirar. Gana quien llegue a la meta.</p>
+      <div class="cj-etapas"><p class="note"><b>Etapas del juego.</b> <b>Nivel 1 · prototipo:</b> el Cubo de la Comunicación (33)© en español, con la A–Z en los cuatro lados de cada cara y los números del 1 al 4056 (<a href="https://sosistem.com/assets/cubo33-nivel1-prototipo-carta.pdf" download>descargar el prototipo, 7 hojas carta</a>). <b>Nivel 2:</b> la cara 6 pasa al idioma que elija cada jugador. <b>Nivel 3 · tablas de aprendizaje:</b> primaria con los seis sistemas del Cubo de Aprendizaje; secundaria con al menos tres idiomas. Quien domina un idioma recibe su <b>Cubo del Idioma</b>: cara 1 abecedario y descripción; caras 2 a 4 las 159 palabras y frases por categorías; cara 5 libre para su práctica; cara 6 el Cubo 33 del idioma con números, Morse, braille y banderas (en preparación).</p></div>
+      <form id="cj-form" class="cj-form">
+        <div class="cj-nombres">
+          <input id="cj-n1" maxlength="14" placeholder="Jugador 1" autocomplete="off"><input id="cj-n2" maxlength="14" placeholder="Jugador 2" autocomplete="off">
+          <input id="cj-n3" maxlength="14" placeholder="Jugador 3 (opcional)" autocomplete="off"><input id="cj-n4" maxlength="14" placeholder="Jugador 4 (opcional)" autocomplete="off">
+        </div>
+        <label class="sn-campo"><b>Meta de puntos</b><input id="cj-meta" type="number" inputmode="numeric" min="5" max="99" value="20"></label>
+        <label class="cj-chk"><input id="cj-avanzado" type="checkbox"> <b>Juego avanzado · 22 idiomas</b>: a un jugador le toca la cara de idiomas; cada tirada le asigna un idioma distinto y pregunta cómo se pronuncia la letra, con la voz del celular para comprobar.</label>
+        <p class="note" id="cj-msg" role="status"></p>
+        <button class="btn primary" type="submit">Tirar el cubo y empezar</button>
+      </form>
+      <div id="cj-juego" hidden>
+        <div class="cj-cara" id="cj-cara"></div>
+        <div class="cj-marcador" id="cj-marcador"></div>
+        <p class="cj-turno" id="cj-turno"></p>
+        <div class="cj-acciones" id="cj-elegir" hidden></div>
+        <div class="cj-resp" id="cj-resp" hidden></div>
+        <div class="cj-acciones" id="cj-acciones">
+          <button class="btn" type="button" id="cj-ver">Ver respuesta</button>
+          <button class="btn" type="button" id="cj-oir" hidden>Escuchar en Morse</button>
+          <button class="btn primary" type="button" id="cj-ok">✓ Correcto (+1)</button>
+          <button class="btn cj-no" type="button" id="cj-no">✗ Falló (−1)</button>
+        </div>
+        <div id="cj-fin" hidden><button class="btn primary" type="button" id="cj-otra">Otra partida</button></div>
+        <ol class="cj-hist" id="cj-hist"></ol>
+        <p><button class="btn" type="button" id="cj-tirar">Volver a tirar el cubo</button> <button class="btn" type="button" id="cj-nuevo">Nueva partida</button></p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="pie"><div class="cont">
+<div class="f1"><span class="marca">CUBO<span>33</span></span>
+<p>Aprendizaje global, al alcance de todos. Traductor, pronunciación, 159 palabras y Juego del Cubo© (Safe Creative 2611097590138), compartidos con <span class="sos">SOS</span>istem™. Parte de la familia Gran Intertopía. © 2026 Víctor Hugo Ramírez Salgado. Todos los derechos reservados.</p>
+<a class="btn-pie" id="pie-regresar" href="../">Inicio de CUBO33</a></div>
+<p class="legal">El traductor es de referencia y no sustituye a un traductor certificado; usa el servicio MyMemory y, sin conexión, el diccionario de 159 entradas. No se graba ni se guarda audio. Prohibida su reproducción total o parcial y su uso para entrenar inteligencia artificial sin autorización escrita del titular.</p>
+</div></footer>
+<script src="assets/cubo-rt.js?v=6.1" defer></script>
+<script src="assets/morse.js?v=6.2.0" defer></script>
+<script src="assets/aprende.js?v=7.2.0" defer></script>
+<script src="assets/pronuncia.js?v=8.3.15" defer></script>
+<script src="assets/idiomas-aprende.js?v=8.3.18" defer></script>
+<script src="assets/practica-voz.js?v=8.3.18" defer></script>
+<script src="assets/cubo-juego.js?v=6.9.0" defer></script>
+<script src="assets/tablas.js?v=6.1" defer></script>
+<script src="assets/banderas.js?v=7.3.0" defer></script>
+<script src="../sitio.js?v=F3" defer></script>
+</body>
+</html>

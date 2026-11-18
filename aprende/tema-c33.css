@@ -1,0 +1,19 @@
+/* © 2026 Víctor Hugo Ramírez Salgado — CUBO33 · tema verde fino sobre el aprendizaje de SOSistem™ */
+:root,:root[data-theme="light"]{--bg:#F3EDE2;--surface:#FFFFFF;--surface-2:#F3EDE2;--ink:#2B2620;--ink-2:#5E5547;--ink-3:#8A7E6C;--line:#E2D3B4;
+  --brand:#2C3A32;--brand-ink:#FBF7EE;--iso-azul:#2C3A32;--navy:#2C3A32;--s1:#2C3A32;--s2:#4A5E52;--s3:#C9A55A;--radius:16px;
+  --shadow:0 1px 2px rgba(43,38,32,.05),0 8px 22px rgba(43,38,32,.07);color-scheme:light}
+html,body{background:#F3EDE2}
+body{margin:0;font-family:Inter,system-ui,sans-serif}
+.c33-ap{padding:28px 0 48px}
+.c33-ap .wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.c33-ap h2{font-family:"Space Grotesk",sans-serif;color:#2C3A32;letter-spacing:-.5px}
+.c33-ap h3{font-family:"Space Grotesk",sans-serif;color:#2C3A32}
+.c33-ap .eyebrow{color:#8A6A3B}
+.c33-ap .card{background:#fff;border:1px solid #E2D3B4;border-radius:18px}
+.c33-ap .btn{background:#fff;color:#2C3A32;border:1px solid #E2D3B4}
+.c33-ap .btn.primary{background:#2C3A32;border-color:#2C3A32;color:#FBF7EE}
+.c33-ap select,.c33-ap input,.c33-ap textarea{border-color:#E2D3B4}
+.c33-ap a{color:#2C3A32}
+.c33-ir{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 6px}
+.c33-ir a{display:inline-flex;align-items:center;min-height:42px;padding:0 14px;border-radius:999px;background:#fff;border:1px solid #E2D3B4;color:#2C3A32;font-weight:700;font-size:14px;text-decoration:none;box-shadow:inset 0 1px 0 #fff,0 4px 0 #CDB98E,0 8px 14px rgba(43,38,32,.12);margin-bottom:4px;transition:transform .14s}
+.c33-ir a:hover{transform:translateY(-2px)}.c33-ir a:active{transform:translateY(3px);box-shadow:0 1px 0 #8A7A5A}
